@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Gothic&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/style.css" />
+    <title>FP Sellection</title>
+  </head>
+
+  <body>
+    <header>
+      <img src="./src/img/logo.png" alt="log fp" />
+      <nav>
+        <ul>
+          <li>Home</li>
+          <li>Carros</li>
+          <li
+            onclick="
+              window.open(
+                'https://wa.me/5516997383503?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20carros',
+                '_blank',
+              )
+            "
+            style="cursor: pointer"
+          >
+            Fale Conosco
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section>
+      <div class="list">
+        <!-- Slide 1 -->
+        <div class="item active">
+          <div class="car-img">
+            <img src="./src/img/img1.png" alt="imagem carro" />
+          </div>
+          <div class="content">
+            <p class="car-information">Único Dono</p>
+            <h2>Audi R8</h2>
+            <p class="description">
+              Acelere e sinta o coração disparar junto com o motor. O R8 entrega
+              uma explosão de potência que te prende no banco, como se fosse uma
+              montanha-russa de alta velocidade.
+            </p>
+            <button class="information">Saiba Mais</button>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="item">
+          <div class="car-img">
+            <img src="./src/img/img2.png" alt="imagem carro" />
+          </div>
+          <div class="content">
+            <p class="car-information">2015</p>
+            <h2>LAMBORGHINI</h2>
+            <p class="description">
+              Se o carro comum é um passeio no parque, a Lamborghini é um salto
+              de paraquedas. É pura emoção, do primeiro ao último segundo.O
+              simples ato de dar partida já é um evento.
+            </p>
+            <button class="information">Saiba Mais</button>
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="item">
+          <div class="car-img">
+            <img src="./src/img/img3.png" alt="imagem carro" />
+          </div>
+          <div class="content">
+            <p class="car-information">Conversível</p>
+            <h2>911 TURBO</h2>
+            <p class="description">
+              O Porsche 911 Turbo é aquele amigo que parece tranquilo e educado,
+              até você vê-lo numa competição e perceber que ele é campeão
+              mundial. É um mestre do disfarce.
+            </p>
+            <button class="information">Saiba Mais</button>
+          </div>
+        </div>
+      </div>
+      <!-- Fechamento correto do .list -->
+
+      <div class="arrows button">
+        <button><img src="./src/img/arrow.png" alt="seta esquerda" /></button>
+        <button><img src="./src/img/arrow.png" alt="seta direita" /></button>
+      </div>
+
+      <div class="indicators">
+        <div class="number">01</div>
+        <ul>
+          <li class="active"></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+    </section>
+
+    <script src="./src/script.js"></script>
+  </body>
+</html>
